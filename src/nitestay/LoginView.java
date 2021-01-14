@@ -5,6 +5,8 @@
  */
 package nitestay;
 
+import java.awt.Image;
+import java.awt.Toolkit;
 import javax.swing.JOptionPane;
 /**
  *
@@ -19,6 +21,9 @@ public class LoginView extends javax.swing.JFrame {
      */
     public LoginView() {
         initComponents();
+        Image icon = Toolkit.getDefaultToolkit().getImage("src/logo/NightStaylogo.png");
+        setIconImage(icon);
+        setTitle("NightStayPlanner");
     }
     
     public LoginView(String username2) {
