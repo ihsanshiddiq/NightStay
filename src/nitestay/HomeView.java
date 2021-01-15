@@ -1195,7 +1195,7 @@ public class HomeView extends javax.swing.JFrame {
             emailsentnotification.setSize(340, 180);
             
         }catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Error you did not enter an email properly, please try again.",
+            JOptionPane.showMessageDialog(null, "An Error occurred. Email not sent.",
                     "Error", JOptionPane.ERROR_MESSAGE);
             throw new RuntimeException(e);
         }
