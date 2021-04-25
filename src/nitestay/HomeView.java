@@ -101,12 +101,12 @@ public class HomeView extends javax.swing.JFrame {
     }
 
     void send_mail() {
-        String Email1 = "ihsanshiddiq6513@gmail.com";
-        String Email2 = "alif.zaky.c@students.esqbs.ac.id";
+        String Email1 = "ihsanshiddiq6513@gmail.com"; // Author 1
+        String Email2 = "alif.zaky.c@students.esqbs.ac.id"; // Author 2
 
-        String from = "nightstay165@gmail.com";
-        final String username = "nightstay165@gmail.com";
-        final String password = "Esqbs165*";
+        String from = "Email_pengirim@gmail.com";
+        final String username = "Email_pengirim@gmail.com";
+        final String password = "password email";
         String host = "smtp.gmail.com";
 
         Properties props = new Properties();
